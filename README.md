@@ -1,3 +1,5 @@
+![Imagen formulario votación](imagenVista/formularioVotacion.jpg)
+
 # Formulario de Votación
 
 Este proyecto es un formulario de votación creado con los siguientes lenguajes de programación: HTML, JavaScript y PHP. Utiliza el patrón de diseño MVC (Modelo-Vista-Controlador).
