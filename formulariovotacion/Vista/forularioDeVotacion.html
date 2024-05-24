@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/formularioDeVotacion.css">
+    <script src="../Controlador/formularioDeVotacion_js/cargarSelectRegiones.js"></script>
+    <script src="../Controlador/formularioDeVotacion_js/cargarSelectComuna.js"></script>
+    <script src="../Controlador/formularioDeVotacion_js/cargarSelectCandidato.js"></script>
+    <script src="../Controlador/formularioDeVotacion_js/procesarFormulario.js"></script>
+    <script src="../Controlador/formularioDeVotacion_js/cargarDatosPersonas.js"></script>
+    <script src="../Controlador/formularioDeVotacion_js/cargarCandidatos.js"></script>
+    <title>FORMULARIO DE VOTACIÓN</title>
+</head>
+<body>
+    <div id="formulario-candidato">
+        <div>
+            <h1>FORMULARIO DE VOTACIÓN</h1>
+            <form id="formularioPersona">
+                <div class="grid">
+                    <label for="nombreApellido">Nombre y Apellido</label>
+                    <input id="nombreApellido" nombre="nombreApellido" type="text">
+                </div>
+                <div class="grid">
+                    <label for="alias">Alias</label>
+                    <input id="alias" name="alias" type="text">
+                </div>
+                <div class="grid">
+                    <label for="rut">RUT</label>
+                    <input id="rut" name="rut" type="text">
+                </div>
+                <div class="grid">
+                    <label for="email">Email</label>
+                    <input id="email" name="email" type="text">
+                </div>
+                <div class="grid">
+                    <label for="region">Región</label>
+                    <select id="region" name="region"></select>
+                </div>
+                <div class="grid">
+                    <label for="comuna">Comuna</label>
+                    <select id="comuna" name="comuna"></select>
+                </div>
+                <div class="grid">
+                    <label for="candidato">Candidato</label>
+                    <select id="candidato" name="candidato" >
+                        
+                    </select>
+                </div>
+                <div>
+                    <label>Como se entero de Nosotros
+                        <input id="comoEntero1" type="checkbox" name="comoEntero" value="1"> Web
+                    </label>
+                    <label>
+                        <input id="comoEntero2" type="checkbox" name="comoEntero" value="2"> TV
+                    </label>
+                    <label>
+                        <input id="comoEntero3" type="checkbox" name="comoEntero" value="3"> Redes Sociales
+                    </label>
+                    
+                    <label>
+                        <input id="comoEntero4" type="checkbox" name="comoEntero" value="4"> Amigo
+                    </label>
+                        
+                </div>
+                <button type="submit">Registrar</button>
+            </form>
+        </div>
+        <div id="candidatos" class="grid" style="width: 50%; text-align: center;">
+            
+        </div>
+    </div>
+    <div id="personas">
+        
+    </div>
+</body>
+</html>

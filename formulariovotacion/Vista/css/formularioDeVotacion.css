@@ -1,0 +1,31 @@
+table {
+    border-collapse: collapse; /* Colapsar los bordes de las celdas */
+    width: 100%; /* Ancho de la tabla */
+}
+
+th,
+td {
+    border: 1px solid #ddd; /* Establecer un borde sólido de 1px con un color gris claro */
+    padding: 8px; /* Agregar relleno a las celdas */
+    text-align: left; /* Alinear el texto a la izquierda */
+}
+
+th {
+    background-color: #f2f2f2; /* Color de fondo para las celdas de encabezado */
+}
+
+div {
+    margin: 1%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,200px));
+    gap: 0%;
+}
+
+#formulario-candidato{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(510px,550px));
+    gap: 0%;
+}
